@@ -82,6 +82,12 @@ section{
     padding: 10px;
 
 }
+.nav ul li a:hover{
+    
+    font-size: 120%;
+    color: orangered;
+
+}
 
 
 
@@ -129,6 +135,15 @@ section{
     box-shadow: -2px 2px 22px #fb624f;
  
 }
+
+.orange-button:hover{
+
+    background: -webkit-linear-gradient(#dd9f65, #e04b4b);
+
+
+ 
+}
+
 .header-image{
     align-self: center;
 }
