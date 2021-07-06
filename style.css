@@ -244,12 +244,20 @@ section{
     justify-content: space-around;
     background-color: antiquewhite;
 }
+
+.contact-form{
+    box-shadow: -2px 2px 22px #8888;
+    border-radius: 30px;
+    padding: 20px;
+}
+
 .contact-form h2{
 
     margin:50px 0px;
     text-align: center;
 
 }
+
 .form-row{
     margin:10px;
 }
@@ -262,9 +270,15 @@ section{
 .form-row input{
     width: 400px;
     height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top:10px;
 }
 .form-row textarea{
     width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top:10px;
 }
 
 .contact-address h2{
@@ -274,6 +288,8 @@ section{
 .contact-address address{
     font-weight: bold;
     text-align: left;
+    font-size:20px;
+    line-height: 2.5rem;
 }
 
 
